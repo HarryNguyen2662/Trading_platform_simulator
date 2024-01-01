@@ -12,3 +12,4 @@ improving operational efficiency by 32%.
 • Implemented PostgreSQL for data storage, achieving a 47% performance improvement by optimizing data access
 and storage velocity.
 
+![Alt Text](Screen%20Recording%202024-01-01%20at%2012.09.18%E2%80%AFAM.gif)
