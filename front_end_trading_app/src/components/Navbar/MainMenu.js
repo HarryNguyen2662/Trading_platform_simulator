@@ -15,7 +15,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Tooltip from "@material-ui/core/Tooltip";
-
+import TicketTape from "../Navbar/Ticket_tape"
 const styles = theme => ({
   root: {
     display: "flex",
@@ -134,7 +134,7 @@ class MainMenu extends React.Component {
             {sideList}
           </div>
         </Drawer>
-      </div>
+      </div >
     );
   }
 }

@@ -10,6 +10,7 @@ import { withStyles } from "@material-ui/core/styles";
 import SubMenu from "./SubMenu";
 import SubMobileMenu from "./SubMobileMenu";
 import SubMenuSection from "./SubMenuSection";
+import TicketTape from "../Navbar/Ticket_tape"
 //import { withRouter } from "react-router-dom";
 
 const styles = theme => ({
@@ -137,6 +138,7 @@ class Navbar extends React.Component {
           {...this.props}
           {...this.state}
         />
+        <TicketTape />
       </div>
     );
   }
